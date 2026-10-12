@@ -11,6 +11,7 @@
     "example:handbook": "tsx example/rag/langchain-handbook-agent.ts",
     "example:rag": "tsx example/rag/langchain-handbook-agent.ts",
     "example:rag:deterministic": "tsx example/rag/deterministic-chain.ts",
+    "example:rag:mine": "tsx example/rag/my-deterministic-chain.ts",
     "example:mcp": "tsx example/mcp/handbook-server.ts",
     "example:mcp:demo": "tsx example/mcp/handbook-demo-client.ts",
     "typecheck": "tsc --noEmit"
