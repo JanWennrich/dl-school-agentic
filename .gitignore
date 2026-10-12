@@ -1,1 +1,7 @@
 .env
+.env.local
+node_modules/
+
+# Own PDFs (copyrighted, large) and the corpus generated from them via `npm run corpus:mine`
+pdfs/
+data/my-corpus.json
