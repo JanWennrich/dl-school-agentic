@@ -5,6 +5,8 @@
   "scripts": {
     "generate:pdf": "python3 data/generate-handbook-pdf.py",
     "seed": "node seed/seed-handbook-vectors.mjs",
+    "corpus:mine": "uv run --with pymupdf python3 data/pdfs-to-corpus.py",
+    "seed:mine": "WORKSHOP_PINECONE_NAMESPACE=vc-bootcamp-janw node seed/seed-handbook-vectors.mjs --corpus data/my-corpus.json --reset",
     "visualize:vectors": "node vector-map/visualize-handbook-vectors.mjs",
     "example:handbook": "tsx example/rag/langchain-handbook-agent.ts",
     "example:rag": "tsx example/rag/langchain-handbook-agent.ts",
